@@ -4,7 +4,7 @@ public abstract class Pessoa {
     protected String sexo;
     protected float experiencia;
 
-    public Pessoa(String nome, int idade, String sexo, float experiencia) {
+    public Pessoa(String nome, int idade, String sexo, String login) {
         this.nome = nome;
         this.idade = idade;
         this.sexo = sexo;
@@ -37,5 +37,15 @@ public abstract class Pessoa {
 
     public float getExperiencia() {
         return experiencia;
+    }
+
+    @Override
+    public String toString() {
+        return "Pessoa{" +
+                "nome='" + nome + '\'' +
+                ", idade=" + idade +
+                ", sexo='" + sexo + '\'' +
+                ", experiencia=" + experiencia +
+                '}';
     }
 }

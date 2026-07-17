@@ -10,7 +10,11 @@ public class ProjetoYoutube {
         // Pessoa p = new Pessoa("Jubileu", 20, "Masculino", 0);
         // Isso que está em cima não funciona!! Está errado!!
 
-        System.out.println(v[0].toString());
+        Gafanhoto g[] = new Gafanhoto[2];
+        g[0] = new Gafanhoto("Jubileu", 20, "Masculino", "Jubileu");
+        g[1] = new Gafanhoto("Creuza", 30, "Feminino", "Creuzinha");
 
+        System.out.println(v[0].toString());
+        System.out.println(g[0].toString());
     }
 }
