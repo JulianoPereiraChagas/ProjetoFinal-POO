@@ -7,6 +7,9 @@ public class ProjetoYoutube {
         v[1] = new Video("Aula 12 de PHP");
         v[2] = new Video("Aula 10 de HTML5");
 
+        // Pessoa p = new Pessoa("Jubileu", 20, "Masculino", 0);
+        // Isso que está em cima não funciona!! Está errado!!
+
         System.out.println(v[0].toString());
 
     }
