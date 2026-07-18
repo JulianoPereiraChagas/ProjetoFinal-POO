@@ -4,7 +4,7 @@ public abstract class Pessoa {
     protected String sexo;
     protected float experiencia;
 
-    public Pessoa(String nome, int idade, String sexo, String login) {
+    public Pessoa(String nome, int idade, String sexo) {
         this.nome = nome;
         this.idade = idade;
         this.sexo = sexo;
@@ -37,6 +37,14 @@ public abstract class Pessoa {
 
     public float getExperiencia() {
         return experiencia;
+    }
+
+    public void setExperiencia(float experiencia) {
+        this.experiencia = experiencia;
+    }
+
+    public void ganharExp(float n) {
+        this.experiencia += n;
     }
 
     @Override
